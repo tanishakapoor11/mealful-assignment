@@ -1,3 +1,37 @@
+.main-container {
+  color: rebeccapurple;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: honeydew;
+  width: 100%;
+  box-shadow: 5px 10px 18px #a5a5a5;
+  background-color: #282c34;
+}
+
+.nav-title {
+  padding: 10px;
+  font-family: "Poppins";
+}
+
+.nav-subtitle {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
   text-align: center;
 }
